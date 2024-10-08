@@ -223,7 +223,8 @@ const App: React.FC = () => {
           <img src={binanceLogo} alt="Exchange" className="w-8 h-8 mx-auto" />
           <p className="mt-1">Exchange</p>
         </div>
-        <div className="text-center text-[#85827d] w-1/5">
+        <div className="text-center text-[#85827d] w-1/5" onClick={() => window.open('https://t.me/$GH-IAPx1KVTmAAAA5LzCjIvBGuU')}>
+        
           <Mine className="w-8 h-8 mx-auto" />
           <p className="mt-1">Mine</p>
         </div>
